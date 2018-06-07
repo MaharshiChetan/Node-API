@@ -1,11 +1,5 @@
 # Make a NodeJS rest api
 
-## Why do this tutorial
-
-I was searching a long time ago about how to make my own boilerplate for nodejs. I hate when I take something from someone else and don't know what happen.
-
-I create this tutorial for helping people to make their own rest api and maybe use it as your boilerplate
-
 ## Features
 
 This rest api gonna be for a Medium like website. This is a simple blog place where people can follow author and create a post. People can like the post and get notification when a user they follow create a new one.
