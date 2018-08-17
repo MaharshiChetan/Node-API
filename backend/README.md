@@ -18,7 +18,7 @@ I use the latest feature of javascript. ES6 + ES7, we compile with the help of b
 
 ---
 
-### Part 1, Setup the tools
+### Setup the tools
 
 #### To add
 
@@ -30,7 +30,7 @@ I use the latest feature of javascript. ES6 + ES7, we compile with the help of b
 
 ---
 
-### Part 2, Setup of the middlewares and mongodb
+### Setup of the middlewares and mongodb
 
 - Add mongoose, body-parser, morgan, compression, helmet
 - Setup config folder
@@ -38,7 +38,7 @@ I use the latest feature of javascript. ES6 + ES7, we compile with the help of b
 
 ---
 
-### Part 3, Users creation
+### Users creation
 
 - Create the user model, controller and routes
 - Install robomongo, postman
@@ -46,9 +46,7 @@ I use the latest feature of javascript. ES6 + ES7, we compile with the help of b
 
 ---
 
-### Part 4, Add bcrypt and passport
-
-[Link](https://youtu.be/iBnLWrw3NpY)
+### Add bcrypt and passport
 
 - Add rimraf and clean dist on webpack build
 - Crypt the user password
@@ -57,7 +55,7 @@ I use the latest feature of javascript. ES6 + ES7, we compile with the help of b
 
 ---
 
-### Part 5, Add passport-jwt and send less information about the user
+### Add passport-jwt and send less information about the user
 
 - Create a secret password for the jwt
 - Add passport-jwt and create the strategy
@@ -66,7 +64,7 @@ I use the latest feature of javascript. ES6 + ES7, we compile with the help of b
 
 ---
 
-### Part 6, Creation of a post
+### Creation of a post
 
 - Create the post model
 - Add the user id as the author
@@ -74,7 +72,7 @@ I use the latest feature of javascript. ES6 + ES7, we compile with the help of b
 
 ---
 
-### Part 7, Get a post by his id
+### Get a post by his id
 
 - Create the controller, route
 - Add http-status library
@@ -83,7 +81,7 @@ I use the latest feature of javascript. ES6 + ES7, we compile with the help of b
 
 ---
 
-### Part 8, Get all posts with a list statics method
+### Get all posts with a list statics method
 
 - Talk about the repos
 - Create the controller
@@ -91,14 +89,14 @@ I use the latest feature of javascript. ES6 + ES7, we compile with the help of b
 
 ---
 
-### Part 9, Update a post if author of it
+### Update a post if author of it
 
 - Create the route and controller
 - Create a validation field
 
 ---
 
-### Part 10, Delete a post if author of it
+### Delete a post if author of it
 
 - Create the route and controller
 - Show the authorization work
@@ -106,14 +104,14 @@ I use the latest feature of javascript. ES6 + ES7, we compile with the help of b
 
 ---
 
-### Part 11, User can favorite a post if auth + increment the favoriteCount
+### User can favorite a post if auth + increment the favoriteCount
 
 - Create model methods for both user and post
 - Add the increment/decrement statics on post
 
-### Part 12, Send if favorite or not with post for help the life of the front-end
+### Send if favorite or not with post for help the life of the front-end
 
 - Make route auth
 - Make user method
 - Make post controller work with the favorite
-"# Node-API" 
+"# Node-API"

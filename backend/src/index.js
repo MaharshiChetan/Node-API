@@ -15,7 +15,7 @@ middlewaresConfig(app);
 app.get('/', (req, res) => {
   User.findById('5b155e8c33533b20ec541ec8', (err, user) => {
     return res.json({ success: true, user: user });
-  })
+  });
 });
 
 apiRoutes(app);

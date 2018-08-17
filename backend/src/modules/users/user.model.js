@@ -51,14 +51,16 @@ const UserSchema = new Schema(
       },
     },
     favorites: {
-      posts: [{
-        type: Schema.Types.ObjectId,
-        ref: 'Post'
-      }]
-    }
+      posts: [
+        {
+          type: Schema.Types.ObjectId,
+          ref: 'Post',
+        },
+      ],
+    },
   },
   { usePushEach: true },
-  { timestamps: true },
+  { timestamps: true }
 );
 
 UserSchema.plugin(uniqueValidator, {
@@ -85,7 +87,7 @@ UserSchema.methods = {
       {
         _id: this._id,
       },
-      constants.JWT_SECRET,
+      constants.JWT_SECRET
     );
   },
   toAuthJSON() {
@@ -121,8 +123,8 @@ UserSchema.methods = {
       }
 
       return false;
-    }
-  }
+    },
+  },
 };
 
 export default mongoose.model('User', UserSchema);
